@@ -12,16 +12,16 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SOURABH_OWNER")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "TOXIC_TANJI)
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "professor_Sukoon_Bott")
+BOT_USERNAME = getenv("BOT_USERNAME", "Hina_lovely_bot)
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "˹ šυкσση ✘ ɱυšιᴄ 🫧 ˼")
+BOT_NAME = getenv("BOT_NAME", "HINA BABY ✘ MUSIC ")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "PROFESSOR_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "LOVELY_HINA)
 EVALOP = list(map(int, getenv("EVALOP", "7074689169").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SachinSanatani:SACHINxSANATANI@sanatani.bnmsfbd.mongodb.net/?retryWrites=true&w=majority&appName=Sanatani")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://toxictanji:toxictanji@cluster0.wvvcdqs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
 
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001986892837"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001392902114"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7074689169"))
+OWNER_ID = int(getenv("OWNER_ID", "5195444280"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC",
+    "https://github.com/haxkx/HINA_MUSIC_BABE",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PROFESSOR_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Friends_Chatting_Group_Friends_0")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HAXKX")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/haxkx_discussion")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -95,21 +95,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
+    "START_IMG_URL", "https://graph.org/file/49379e9fe323b923a2dc4.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/dec61e858d57c14343455.jpg"
+    "PING_IMG_URL", "https://graph.org/file/709fdd164660d5add7b5f.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/7795e58425337d0455e95.jpg"
-STATS_IMG_URL = "https://graph.org/file/136c57e473c33a0c62152.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/61024698bfc926e95d57a.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/61024698bfc926e95d57a.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/61024698bfc926e95d57a.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/244e7569f41400dd0e024.jpg"
+STATS_IMG_URL = "https://graph.org/file/851a9a173ea0bbe740e4c.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/8bd25e1b5fffb97ea343e.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/1a4e7f09f968d9207a291.jpg"
+STREAM_IMG_URL = "https://graph.org/file/18ba535b174ac0649b23b.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/3434af0772e3ed4e4f27c.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/1bfce7a64228c69e43802.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/6e59e4dbcb74fec678d10.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/fe28e2fb73cdade0c8a10.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/93cf947713f49e9e4f99a.jpg"
 
 
 def time_to_seconds(time):
