@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "TOXIC_TANJI)
+OWNER_USERNAME = getenv("OWNER_USERNAME", "TOXIC_TANJI")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "Hina_lovely_bot)
+BOT_USERNAME = getenv("BOT_USERNAME", "Hina_lovely_bot")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME", "HINA BABY ✘ MUSIC ")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "LOVELY_HINA)
+ASSUSERNAME = getenv("ASSUSERNAME", "LOVELY_HINA")
 EVALOP = list(map(int, getenv("EVALOP", "7074689169").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://toxictanji:toxictanji@cluster0.wvvcdqs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -46,7 +46,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/haxkx/HINA_MUSIC_BABE",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "haxkx")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
